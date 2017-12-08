@@ -1,0 +1,20 @@
+{
+  "name": "coinhivebot",
+  "version": "1.0.0",
+  "description": "Gets xmr value from coinhive api and converts to currency",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "monero",
+    "telegram"
+  ],
+  "author": "Austin Albrecht",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "async": "^2.6.0",
+    "node-telegram-bot-api": "^0.29.0",
+    "request": "^2.83.0"
+  }
+}
